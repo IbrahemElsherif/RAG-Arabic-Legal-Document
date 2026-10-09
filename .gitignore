@@ -8,3 +8,23 @@ wheels/
 
 # Virtual environments
 .venv
+
+# Local spec (not committed)
+spec/
+
+# Secrets
+.env
+
+# Data: DVC tracks these (Phase 7)
+data/raw/
+data/processed/
+data/index/
+
+# Course handbook (local reference only)
+The-MLOps-Practitioner-Handbook-3-tracks.pdf
+
+# Tool caches
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
